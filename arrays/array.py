@@ -1,11 +1,10 @@
-# from array import *
+from array import *
+val = array('i', [1,2,3,4,5,6,7,8,9])
 
-# val = array('i', [1,2,3,4,5,6,7,8,9])
+for i in range(0, len(val)):
+  print(val[i], end=" ")
 
-# for i in range(0, len(val)):
-#   print(val[i], end=" ")
-
-# print("\n")
+print("\n")
 
 # for i in val:
 #   print(i, end=" ")
@@ -47,9 +46,9 @@
 # for x in val:
 #   print(x, end=" ")
 
-from numpy import *
+# from numpy import *
 
-val = array([1, 2, 3, 4])
+# val = array([1, 2, 3, 4])
 
-for i in range(0, len(val)):
-  print(val[i], end=" ")
+# for i in range(0, len(val)):
+#   print(val[i], end=" ")
